@@ -1,0 +1,50 @@
+
+*** These modified files were found in JOE when it aborted on Sat Jul  3 10:34:52 2010
+*** JOE was aborted because the terminal closed
+
+*** These modified files were found in JOE when it aborted on Sat Jul  3 10:34:52 2010
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+\
+\
+,
+\0,\2,\1
+\
+\t
+\t\t\n
+jboss
+seam
+1.6
+
+*** File '(Unnamed)'
+dk.lungogbendsen.seam
+<groupId>seam
+1.5
+ejb
+ejb
+api
+el
+jbp
+jbpm
+el
+
+*** File '(Unnamed)'
+./jar/src/main/resources/seam.properties
+./jar/pom.xml
+./war/src/main/webapp/niceforms.css
+./war/src/main/webapp/index.html
+./war/src/main/webapp/niceforms.js
+./war/src/main/webapp/WEB-INF/pages.xml
+./war/src/main/webapp/WEB-INF/components.xml
+./war/src/main/webapp/WEB-INF/web.xml
+./war/src/main/resources/messages.properties
+./war/pom.xml
+./src/main/java/org/jboss/seam/example/numberguess/NumberGuess.java
+./src/main/resources/cheat.jpdl.xml
+./src/main/resources/META-INF/ejb-jar.xml
+./src/main/resources/pageflow.jpdl.xml
+./src/main/resources/seam.properties
+./pom.xml
+./src/main/resources/pageflow.jpdl.xml
+./src/main/resources/pageflow.jpdl.xml

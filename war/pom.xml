@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>seam</groupId>
+	<artifactId>war</artifactId>
+	<name>Seam War</name>
+	<version>1.0</version>
+	<packaging>war</packaging>
+	<parent>
+		<groupId>seam</groupId>
+		<artifactId>SeamExample</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<build>
+		<finalName>jboss-seam-numberguess</finalName>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jboss.seam</groupId>
+			<artifactId>jboss-seam-ui</artifactId>
+			<version>2.2.0.GA</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.jboss.seam</groupId>
+					<artifactId>jboss-seam</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+</project>
